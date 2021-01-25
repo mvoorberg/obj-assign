@@ -1,6 +1,6 @@
 {
   "name": "x-assign",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A better Object.assign that merges object properties and concatenates arrays.",
   "main": "index.js",
   "scripts": {
