@@ -18,7 +18,7 @@ const ObjAssign = require("obj-assign");
 
 const a = {red: "apple"};
 const b = {green: "pear"};
-const c = ObjAssign.assignConcat(a, b);
+const c = ObjAssign.assign(a, b);
 
 console.log(c); 
 > {

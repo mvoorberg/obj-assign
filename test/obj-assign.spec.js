@@ -33,7 +33,7 @@ describe("ObjAssign", function () {
     const objC = {
       car: "beep",
     };
-    const result = ObjAssign.assignConcat(objA, objB, objC);
+    const result = ObjAssign.assign(objA, objB, objC);
     expect(result.apple).to.equal("red");
     expect(result.dog).to.equal("bark");
 
@@ -56,7 +56,7 @@ describe("ObjAssign", function () {
     const objC = {
       car: "beep",
     };
-    const result = ObjAssign.assignConcat(objA, objB, objC);
+    const result = ObjAssign.assign(objA, objB, objC);
 
     // expect(result.banana).to.have.members(["yellow", "brown", "green"]);
     // the order is important!
@@ -82,7 +82,7 @@ describe("ObjAssign", function () {
     const objC = {
       car: "beep",
     };
-    const result = ObjAssign.assignConcat(objA, objB, objC);
+    const result = ObjAssign.assign(objA, objB, objC);
 
     // Make sure that the keys are as expected
     const expectResult = { yellow: "$0.69", brown: "$0.39", green: "$0.89" };
@@ -104,7 +104,7 @@ describe("ObjAssign", function () {
     const objC = {
       car: "beep",
     };
-    const result = ObjAssign.assignConcat(objA, objB, objC);
+    const result = ObjAssign.assign(objA, objB, objC);
 
     // Make sure that the keys are as expected
     const expectResult = {
@@ -130,7 +130,7 @@ describe("ObjAssign", function () {
     const objC = {
       car: "beep",
     };
-    const result = ObjAssign.assignConcat(objA, objB, objC);
+    const result = ObjAssign.assign(objA, objB, objC);
 
     // Make sure that the keys are as expected
     const expectResult = ["green", "yellow"];
@@ -152,7 +152,7 @@ describe("ObjAssign", function () {
     const objC = {
       car: "beep",
     };
-    const result = ObjAssign.assignConcat(objA, objB, objC);
+    const result = ObjAssign.assign(objA, objB, objC);
 
     // Make sure that the keys are as expected
     const expectResult = { yellow: "$0.69", brown: "$0.39" };
@@ -171,7 +171,7 @@ describe("ObjAssign", function () {
     const objC = {
       car: "beep",
     };
-    const result = ObjAssign.assignConcat(objA, objB, objC);
+    const result = ObjAssign.assign(objA, objB, objC);
 
     // Make sure that the keys are as expected
     const expectResult = { yellow: "$0.69", brown: "$0.39" };
@@ -190,7 +190,7 @@ describe("ObjAssign", function () {
     const objC = {
       car: "beep",
     };
-    const result = ObjAssign.assignConcat(objA, objB, objC);
+    const result = ObjAssign.assign(objA, objB, objC);
 
     // Make sure that the keys are as expected
     const expectResult = ["green", "yellow"];
@@ -209,7 +209,7 @@ describe("ObjAssign", function () {
     const objC = {
       car: "beep",
     };
-    const result = ObjAssign.assignConcat(objA, objB, objC);
+    const result = ObjAssign.assign(objA, objB, objC);
 
     // Make sure that the keys are as expected
     const expectResult = 123;
@@ -231,7 +231,7 @@ describe("ObjAssign", function () {
     const objC = {
       car: "beep",
     };
-    const result = ObjAssign.assignConcat(objA, objB, objC);
+    const result = ObjAssign.assign(objA, objB, objC);
 
     // Make sure that the nested keys are as expected
     const expectResult = {
@@ -257,7 +257,7 @@ describe("ObjAssign", function () {
     };
     const objD = [];
     const objE = {};
-    const result = ObjAssign.assignConcat(objA, objB, objC, objD, objE);
+    const result = ObjAssign.assign(objA, objB, objC, objD, objE);
 
     // Make sure that the keys are as expected
     const expectResult = { apple: "red", car: "beep" };

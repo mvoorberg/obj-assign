@@ -1,7 +1,7 @@
 "use strict";
 
 const ObjAssign = {
-  assignConcat: function (...args) {
+  assign: function (...args) {
     /**
      * Combine object properties or concat array properties
      *
