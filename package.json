@@ -1,7 +1,7 @@
 {
   "name": "x-assign",
   "version": "0.1.2",
-  "description": "A simple object merge loike Object.assign that concats arrays.",
+  "description": "A better Object.assign that merges object properties and concatenates arrays.",
   "main": "index.js",
   "scripts": {
     "deploy": "np",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mvoorberg/obj-assign.git"
+    "url": "git+https://github.com/mvoorberg/x-assign.git"
   },
   "keywords": [
     "object.assign",
@@ -19,9 +19,9 @@
   "author": "Mark Voorberg <mark@binaryops.ca>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mvoorberg/obj-assign/issues"
+    "url": "https://github.com/mvoorberg/x-assign/issues"
   },
-  "homepage": "https://github.com/mvoorberg/obj-assign#readme",
+  "homepage": "https://github.com/mvoorberg/x-assign#readme",
   "engines": {
     "node": ">= 8"
   },
