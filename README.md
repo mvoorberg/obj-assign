@@ -2,9 +2,7 @@
 An improved Object.assign that will merge nested objects and concatenate arrays.
 
 [![Coverage Status](https://coveralls.io/repos/github/mvoorberg/x-assign/badge.svg?branch=main)](https://coveralls.io/github/mvoorberg/x-assign?branch=main)
-[![Build Status](https://travis-ci.com/mvoorberg/x-assign.svg?branch=v1.0.1)](https://travis-ci.com/mvoorberg/x-assign)
-
-
+[![Build Status](https://travis-ci.com/mvoorberg/x-assign.svg?branch=main)](https://travis-ci.com/mvoorberg/x-assign)
 ## Installation
 
 ```bash
