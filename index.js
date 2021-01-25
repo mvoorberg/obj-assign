@@ -1,6 +1,6 @@
 "use strict";
 
-const ObjAssign = {
+const XAssign = {
   assign: function (...args) {
     /**
      * Combine object properties or concat array properties
@@ -46,6 +46,4 @@ const ObjAssign = {
   },
 };
 
-// Don't export a new instance of the registry, we want
-// to be able to have more than one within our application.
-module.exports = ObjAssign;
+module.exports = XAssign;
