@@ -1,6 +1,6 @@
 {
   "name": "x-assign",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple object merge loike Object.assign that concats arrays.",
   "main": "index.js",
   "scripts": {
