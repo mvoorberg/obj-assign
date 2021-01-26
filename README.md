@@ -14,16 +14,34 @@ $ npm install x-assign
 ```javascript
 const XAssign = require("x-assign");
 
-const a = {red: "apple"};
-const b = {green: "pear"};
-const c = XAssign.assign(a, b);
+const objA = {
+  car: ["vroom"],
+  pear: "green",
+  banana: { yellow: "$0.69", brown: "$0.39" },
+};
+const objB = {
+  car: ["beep", "crash"],
+  cat: "meow",
+  cow: "moo",
+  banana: { green: "$0.89", yellow: "$0.56 sale!" },
+};
+const objC = {
+  duck: {says: "quack"},
+};
 
-console.log(c); 
-> {
->    red: "apple",
->    green: "pear"
-> }
-```
+const result = XAssign.assign(objA, objB, objC);
+
+console.log(result); 
+{
+      car: ["vroom", "beep", crash],
+      pear: "green",
+      banana: { green: "$0.89", yellow: "$0.56 sale!", brown: "$0.39"  },
+      cat: "meow",
+      cow: "moo",
+      duck: {says: "quack"},
+ }
+ ```
+ See more [examples in the tests](https://github.com/mvoorberg/x-assign/blob/main/test/x-assign.spec.js)!
 
 ## Need Support?
 x-assign is a [software development project](https://binaryops.ca) by BinaryOps Software Inc.
